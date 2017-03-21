@@ -1,0 +1,22 @@
+<div id="footer">
+  <div class="layout footer">
+    <div class="footer-info">
+      <p>Copyright © 2015  Chengdu  origissay  Diagnostics,LTD     技术支持：博海天韵 <a href="http://www.dedecms.com" target="_blank"></a>  蜀ICP12007941 </p>
+    </div>
+    <div class="footer-nav">
+     <ul>
+      <volist name="cates" id="vo">
+            <li>
+              <a href="__MODULE__/<if condition="$vo['cate_type'] eq 0">Page<else/>List</if>/index/cate_id/{$vo.cate_id}">
+              <p>{$vo.cate_name}</p>
+              </a>
+            </li>
+      </volist>
+        
+      
+     </ul>
+    </div>
+    
+    <div class="clr"></div>
+  </div>
+</div>

@@ -1,0 +1,257 @@
+[ 2017-03-21T02:29:31+08:00 ] ::1 /chuangyi/index.php/Home/Article/index/ar_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ar_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ar_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ar_article` WHERE ( ar_id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ar_category` WHERE ( parentid=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 25 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 1  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 25 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 25 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 25 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 22  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: cate_type F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 60 行.
+NOTIC: [8] Undefined index: cate_type F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-21T02:30:48+08:00 ] ::1 /chuangyi/index.php/Home/List/index/cate_id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ar_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=20 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ar_category` WHERE ( parentid=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ar_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ar_article` WHERE ( ar_cateid=20 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ar_article` WHERE ( ar_cateid=20 ) LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 23 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 23 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 23 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 23 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 22  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: cate_type F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 59 行.
+NOTIC: [8] Undefined index: cate_type F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-21T02:31:10+08:00 ] ::1 /chuangyi/index.php/Home/Article/index/ar_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ar_category` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ar_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ar_article` WHERE ( ar_id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ar_category` WHERE ( parentid=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 25 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 25 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 25 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 25 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 22  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: cate_type F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 60 行.
+NOTIC: [8] Undefined index: cate_type F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-21T07:06:27+08:00 ] ::1 /chuangyi/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ar_category` [ RunTime:0.0930s ]
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 0  [ RunTime:0.1740s ]
+NOTIC: [8] Undefined variable: cateid F:\wamp\www\chuangyi\Application\Home\Controller\BaseController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `ar_article` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `ar_article` WHERE ( 1 ) ORDER BY ar_id desc LIMIT 2   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `ar_article` WHERE ( ar_rem=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 22  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.417024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.417024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-21T07:07:04+08:00 ] ::1 /chuangyi/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ar_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cateid F:\wamp\www\chuangyi\Application\Home\Controller\BaseController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `ar_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ar_article` WHERE ( 1 ) ORDER BY ar_id desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ar_article` WHERE ( ar_rem=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 22  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-21T07:07:07+08:00 ] ::1 /chuangyi/index.php/Home/List/index/cate_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ar_category` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=1 ) LIMIT 1   [ RunTime:0.0860s ]
+SQL: SELECT * FROM `ar_category` WHERE ( cate_id=1 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `ar_category` WHERE ( parentid=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ar_article` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ar_article` WHERE ( ar_cateid=1 ) LIMIT 1   [ RunTime:0.0640s ]
+SQL: SELECT * FROM `ar_article` WHERE ( ar_cateid=1 ) LIMIT 0,2   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 23 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 23 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 23 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 23 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 22  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: cate_type F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\42fc7c8ee03e2fee3718917602a7ce2d.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-21T07:07:10+08:00 ] ::1 /chuangyi/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ar_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cateid F:\wamp\www\chuangyi\Application\Home\Controller\BaseController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `ar_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ar_article` WHERE ( 1 ) ORDER BY ar_id desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ar_article` WHERE ( ar_rem=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ctae_ename F:\wamp\www\chuangyi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+SQL: SELECT * FROM `ar_category` WHERE `parentid` = 22  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

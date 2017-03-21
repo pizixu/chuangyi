@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html>
+<head>
+<base target="_self" />
+<meta charset="UTF-8">
+<title>创宜生物</title>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/style/style.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/style/jquery.jslides.css" media="screen" />
+<script type="text/javascript" src="__PUBLIC__/style/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/style/jquery.jslides.js"></script>
+<script type="text/javascript" src="__PUBLIC__/style/nav.js"></script>
+<script type="text/javascript" src="__PUBLIC__/style/scrolltext.js"></script>
+<style>
+#ScrollMe A { 
+ COLOR: #444;TEXT-DECORATION: none; display:block; line-height:27px; position:relative; width:1155px;
+} 
+#ScrollMe A span{ position:absolute; top:0; right:0; }
+</style>
+</head>
+<body>
+ <include file="Common/header"/>
+<div id="full-screen-slider">
+  <ul id="slides">
+      <volist name="article_rems" id="vo">
+       <li style="background: url('{$vo.ar_pic}') no-repeat center center"><a href="javascript:void(0)">{$vo.ar_title}</a>
+       </li>
+      </volist>
+  </ul>
+</div>
+<div class="notice">
+  <div class="layout"> 
+   <div id="ScrollMe" style="overflow: hidden; height: 27px;">
+      <a href="/news/company/2016/0324/35.html">肖斯达克成都高新大核酸研究院揭牌成立 <span style="font-size:11px; ">2016-03-24</span></a>   
+   </div>
+  
+  </div>
+</div>
+<div class="main">
+   <div class="layout cnt">
+     <div class="left">
+       <h2><a href="/plus/list.php?tid=1">+</a>关于我们</h2>
+       <div class="index-about">
+       <img alt="" src="__PUBLIC__/images/about_us.jpg" style="width: 891px; height: 207px;" /><
+        成都创宜生物科技有限公司创立于2010年初春，是一家具有自主知识产权和掌握核心技术的集临床体外诊断产品的研发、 生产和销售为一体的高科技生物技术公司，也是四川省高科技产业化协会副理事...</div>
+     </div>
+     <div class="mid">
+       <h2><a href="__APP__/Home/List/index/cate_id/64">+</a>新闻动态</h2>
+       <ul class="indexnews">
+       <volist name="article_news" id="vo">
+        <li>
+           <a href="__MODULE__/article/index/ar_id/{$vo.ar_id}"><b>0{$i}</b>{$vo.ar_title}</a>
+           <p>技术支持</p>
+         </li>
+        </volist>
+       </ul>
+     </div>
+     <div class="right">
+        <h2><a href="/plus/list.php?tid=13">more</a>创宜生物宣传片</h2>
+        <div class="flash">
+            <EMBED style=" margin: 0 auto; width:360px; height: 198px";   
+            src="http://player.youku.com/player.php/sid/XMTI5NDQ3OTg0NA==/v.swf"   
+            quality= "high"   
+            wmode="transparent"  
+            pluginspage="http://www.macromedia.com/go/getflashplayer"  
+            type="application/x-shockwave-flash">  
+            
+           
+        </div>
+     </div>
+     <div class="clr"></div>
+   </div>
+</div>
+<include file="Common/footer" />
+<script>new srcMarquee("ScrollMe",0,1,808,27,3,5000,1000,27)</script> 
+</body>
+</html>
